@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: rgb(34, 34, 34);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .post{
+    width: 500px;
+    margin: auto 0px;
+    border-radius: 4px;
+    background-color: aliceblue;
+  }
+  
+  .post_container{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .post_header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .post_caption{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .caption_icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0px;
+    font-size: 23px;
+  }
+  
+  
